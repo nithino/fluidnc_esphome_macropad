@@ -74,7 +74,7 @@ fluidnc_pendant:
 This is the basic code structure and blocks. Refer to the full YAML file uploaded here.  
 
 Additionally, you should create a UART configuration in your FluidNC firmware.  
-In your FluidNC config.yaml:
+***In your FluidNC config.yaml:***
 ```yaml
 uart1:
   txd_pin: gpio.2
