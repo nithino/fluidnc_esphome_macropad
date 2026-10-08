@@ -45,8 +45,12 @@ logger:
 
 external_components:
   - source:
-      type: local
-      path: components
+      type: git
+      url: https://github.com/nithino/fluidnc_esphome_macropad
+      ref: main
+    components:
+      - fluidnc_pendant
+  refresh: 0s
 
 uart:
   id: fnc_uart
